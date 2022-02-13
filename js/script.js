@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
   const images2 = document.createElement("img");
   const cost = document.createElement("span");
 
-  const descr2 = document.createElement("li");
+  const descrcintion = document.createElement("li");
   const img4 = document.createElement("img");
   const lastDays = document.createElement("span");
 
@@ -123,21 +123,21 @@ margin: auto;
 
 
 
-  cardCompany.append(descr2);
-  descr2.style.cssText = `
+  cardCompany.append(descrcintion);
+  descrcintion.style.cssText = `
   align-items: flex-start;
   font-weight: 400;
   //color: hsl(178, 100%, 50%);
   padding-bottom: 20px;
 `;
-  descr2.append(img4);
+  descrcintion.append(img4);
   img4.setAttribute(
     "src",
     "./img/icon-clock.svg"
   );
 
 
-  descr2.append(lastDays);
+  descrcintion.append(lastDays);
   lastDays.textContent = ` 3 day left`;
   lastDays.style.cssText = `
   font-weight: 400;
@@ -191,4 +191,4 @@ margin: auto;
   `;
 });
 
-alert(`Я оцениваю свою работу на ___ баллов`);
+alert(`Я оцениваю свою работу на 110 баллов`);
