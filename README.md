@@ -1,2 +1,2 @@
 # NFT-card
- https://bakai16.github.io/Javs/
+ <a href="https://bakai16.github.io/Javs/">Link </a>
